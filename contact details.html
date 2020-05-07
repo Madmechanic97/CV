@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact Details</title>
+  </head>
+
+  <body>
+  <h1>My contact details</h1>
+  <ul>
+  <li>email-abdullahtariq97@yahoo.com</li>
+  <li>Contact number-0769054983</li>
+  <li>Address-32 Cowgate Norwich NR6 1SY</li>
+  </ul>
+
+  <form action="mailto:abdullahtariq97@yahoo.com" enctype="text/plain" > <!--Initially the action attribute for this form tag was index
+  .html which means it would redirect the user to the homepage of our website when the user clicks submit
+we can this behaviour my using the mailto:insertemailhere command for the action attribute. This sends the Message
+the user wrote the email that you have entered-->
+<!--Also have to specify the type encoding method used in the form
+This is done using the enctype="" attribute. In this case it is plain text-->
+
+<label>Name:</label>
+<input type="text" name="Name" value=""> <!--The name attribute specifies the information you put in for your name to be associated
+with a category called name-->
+<br>
+<label>Email:</label>
+<input type="email" name="Email" value="">
+<br>
+<label>Your Message</label>
+<br>
+<textarea name="Message" rows="20" cols="20"></textarea>
+<br>
+<input type="submit" name="">
+
+  </form>
+
+
+
+
+  </body>
+</html>
